@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>TaskManagerAppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TaskManagerAppIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TaskManagerAppIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TaskManagerAppIcon.png" />
+  </ItemGroup>
+
+</Project>
